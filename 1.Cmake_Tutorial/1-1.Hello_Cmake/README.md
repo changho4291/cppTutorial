@@ -1,11 +1,11 @@
 #  Hello Cmake!! 빌드 해보기
-1. cpp 프로젝트 만들기</br>
+1. **cpp 프로젝트 만들기**</br>
 	main.cpp 를 만들고 예제와 같이 코딩합니다.
 
-2. CMake 스크립트 짜기</br>
-	프로젝트 폴더에 CMakeLists.txt 파일을 만들어 줍니다. CMake 스크립트는 꼭 "CMakeLists.txt" 로 작성하셔야 합니다. 스크립트의 내용은 프로젝트를 참고하세요.
+2. **CMake 사용해보기**</br>
+	프로젝트 폴더에 CMakeLists.txt 파일을 만들어 줍니다. CMake는 꼭 "CMakeLists.txt" 로 작성하셔야 합니다. 자세한 내용은 프로젝트를 참고하세요.
 
-3. 빌드하기</br>
+3. **빌드하기**</br>
 	`$ mkdir build`</br>
 	`$ cd build`</br>
 	위와 같이 build 폴더를 만들어줍니다. build 폴더를 만드는 이유는 cmake 빌드 시 만들어질 목적파일들과 makefile 스크립트들이 프로젝트 내에 무질서하게 배치되는 것 을 막기 위함 입니다.</br>
