@@ -28,5 +28,3 @@ message(${example_3})
 message(${example_4})
 message(${example_5})
 message(${example_6})
-
-# set 과 if, function, message 를 활용한 예제를 만들어보자

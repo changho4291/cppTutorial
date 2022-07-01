@@ -1,4 +1,4 @@
-# CMake Scripting 해보기!!
+# CMake set과 message 사용 해보기!!
 1. **set 사용해보기**</br>
 참고: https://cmake.org/cmake/help/latest/command/set.html</br>
 	CMake에서 set은 변수를 생성하는 역할을 합니다. 프로그래밍으로 치면 `var demo = temp` 와 같은 역할로 생각하시면 됩니다.</br>
@@ -15,4 +15,8 @@
 
 3. **테스트**</br>
 	`$ cmake ..`</br>
-	`$ make`</br>
+	build 폴더 생성 후 위 명령을 입력하여 예제를 실행해봅시다.
+	처음엔 빌드 로그에 project가 없다는 경고가 나오지만 그 뒤에 'Hello Cmake!!' 라는 문구가 출력됨을 볼 수 있을 것 입니다.
+	자세한 동작 원리는 'CMakeLists.txt' 에 작성된 스크립트를 참고하시면 됩니다.
+	
+	
